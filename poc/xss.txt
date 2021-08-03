@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title>xss</title>
+    <meta charset="UTF-8">
+  </head>
+  
+  <body>
+    <img src=x onerror=alert(666);>
+  </body>
+</html>
